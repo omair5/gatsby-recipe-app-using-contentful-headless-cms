@@ -1,0 +1,20 @@
+.container {
+  background-color: #32b768;
+  outline: none;
+  border: none;
+  padding: 13px 20px;
+  color: white;
+  font-weight: 900;
+  border-radius: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+.container:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+/*# sourceMappingURL=Button.module.css.map */

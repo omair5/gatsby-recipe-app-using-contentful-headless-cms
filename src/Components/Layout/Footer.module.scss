@@ -1,0 +1,38 @@
+@import "../../Assets/GeneralStyles/HorizontalAndVerticalCenter.module.scss";
+.mainContainer {
+    min-height: 45vh;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    border-top: 2px solid rgb(50, 183, 104);
+    @include HorizontalAndVerticalCenter;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    h1 span {
+        color: rgb(50, 183, 104);
+    }
+    p {
+        font-family: "Kalam", "cursive";
+        text-align: center;
+    }
+    h3 {
+        font-family: "Kalam", "cursive";
+        padding: 7px 0px;
+        cursor: pointer;
+        transition: 0.3s;
+        color: rgb(50, 183, 104);
+    }
+    h3:hover {
+        color: white;
+    }
+}
+.center {
+    @include HorizontalAndVerticalCenter;
+    flex-direction: column;
+}
+.copyright {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 7px;
+    color: rgb(50, 183, 104);
+}

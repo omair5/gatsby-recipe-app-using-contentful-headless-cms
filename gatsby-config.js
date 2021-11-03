@@ -11,6 +11,18 @@ module.exports = {
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          // cursive is base family
+          'Kalam'
+        ],
+        display: 'swap'
+      }
+    },
+
+
   ],
 }
