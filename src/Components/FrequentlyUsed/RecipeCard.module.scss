@@ -1,0 +1,28 @@
+.paper {
+    overflow: hidden;
+    margin: 15px;
+}
+.ImageContainer {
+    height: 220px;
+}
+.iconWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconContainer {
+    margin: 15px 0px;
+    
+    span {
+        color: #32b768;
+        font-weight: bolder;
+        font-size: 1.4rem;
+    }
+}
+.icon {
+    font-size: 20px;
+}
+
+.ButtonContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}

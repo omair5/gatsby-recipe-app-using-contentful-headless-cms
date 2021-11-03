@@ -1,0 +1,42 @@
+.mainContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  margin: 20px;
+}
+
+.contentGrid {
+  min-height: 60vh;
+  background-image: url("../../Assets/Images/bgsection.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contentGrid h2 {
+  padding-bottom: 70px;
+  text-align: left;
+  font-family: "kalam", "cursive";
+  color: #383838;
+}
+/*# sourceMappingURL=FeaturedListings.module.css.map */

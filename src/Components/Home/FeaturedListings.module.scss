@@ -1,0 +1,23 @@
+@import "../../Assets/GeneralStyles/HorizontalAndVerticalCenter.module.scss";
+.mainContainer {
+    min-height: 100vh;
+    width: 100%;
+    @include HorizontalAndVerticalCenter;
+}
+.wrapper {
+    margin: 20px;
+}
+.contentGrid {
+    min-height: 60vh;
+    background-image: url("../../Assets/Images/bgsection.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include HorizontalAndVerticalCenter;
+    h2 {
+        padding-bottom: 70px;
+        text-align: left;
+        font-family: "kalam", "cursive";
+        color: rgb(56, 56, 56);
+    }
+}
