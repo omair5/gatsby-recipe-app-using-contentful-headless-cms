@@ -5,6 +5,28 @@
 
 .ImageContainer {
   height: 220px;
+  position: relative;
+}
+
+.ImageContainer::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.dishName {
+  color: #32b768;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  font-family: "kalam", "cursive";
+}
+
+.dishName h4 {
+  padding: 7px;
+  text-align: center;
 }
 
 .iconWrapper {

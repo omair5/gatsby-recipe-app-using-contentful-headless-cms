@@ -5,7 +5,7 @@
     @include HorizontalAndVerticalCenter;
 }
 .wrapper {
-    margin: 20px;
+    margin: 20px 0px;
 }
 .contentGrid {
     min-height: 60vh;
@@ -16,6 +16,7 @@
     @include HorizontalAndVerticalCenter;
     h2 {
         padding-bottom: 70px;
+        padding-left: 20px;
         text-align: left;
         font-family: "kalam", "cursive";
         color: rgb(56, 56, 56);

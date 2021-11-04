@@ -13,7 +13,7 @@
 }
 
 .wrapper {
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .contentGrid {
@@ -35,6 +35,7 @@
 
 .contentGrid h2 {
   padding-bottom: 70px;
+  padding-left: 20px;
   text-align: left;
   font-family: "kalam", "cursive";
   color: #383838;
