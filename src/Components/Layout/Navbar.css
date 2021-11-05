@@ -24,7 +24,8 @@
 }
 
 .navbar-logo h1 {
-    color: white
+    color: white;
+    font-family: "kalam", "cursive";
 }
 
 .navbar-logo h1 span {

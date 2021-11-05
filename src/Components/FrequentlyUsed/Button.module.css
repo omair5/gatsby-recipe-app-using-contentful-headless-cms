@@ -1,5 +1,4 @@
 .container {
-  background-color: #32b768;
   outline: none;
   border: none;
   padding: 13px 20px;
@@ -16,5 +15,13 @@
 .container:hover {
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
+}
+
+.bgcommon {
+  background-color: #32b768;
+}
+
+.black {
+  background-color: black;
 }
 /*# sourceMappingURL=Button.module.css.map */

@@ -3,11 +3,14 @@
     min-height: 45vh;
     width: 100%;
     background-color: rgb(20, 20, 20);
-    border-top: 2px solid rgb(50, 183, 104);
     @include HorizontalAndVerticalCenter;
     flex-direction: column;
     color: white;
     position: relative;
+    padding: 25px 0px;
+    h1 {
+        font-family: "kalam", "cursive";
+    }
     h1 span {
         color: rgb(50, 183, 104);
     }

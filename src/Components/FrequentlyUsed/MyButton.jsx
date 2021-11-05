@@ -1,10 +1,10 @@
 import React from 'react';
-import { container } from './Button.module.css'
+import { container, black, bgcommon } from './Button.module.css'
 
-const MyButton = ({content}) => {
+const MyButton = ({ content, bgcolor }) => {
     return (
         <>
-            <button as='button' className={container}>{content}</button>
+            <button as='button' className={`${container} ${bgcolor ? black : bgcommon}`}>{content}</button>
         </>
     );
 }

@@ -1,5 +1,4 @@
 .container {
-    background-color: rgb(50, 183, 104);
     outline: none;
     border: none;
     padding: 13px 20px;
@@ -13,4 +12,10 @@
 }
 .container:hover {
     transform: scale(1.01);
+}
+.bgcommon {
+    background-color: rgb(50, 183, 104);
+}
+.black {
+    background-color: black;
 }

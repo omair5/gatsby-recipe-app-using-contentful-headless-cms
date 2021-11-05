@@ -7,6 +7,7 @@ import RecipeCard from '../FrequentlyUsed/RecipeCard';
 const FeaturedListings = () => {
     return (
         <div className={mainContainer}>
+            <h1><span>Featured Recipes</span></h1>
             <Grid container className={wrapper}>
 
                 <Grid item xs={12} lg={5} className={contentGrid} >
